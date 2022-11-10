@@ -1,0 +1,13 @@
+name: Plan QA DFIA
+on:
+  pull_request:
+    branches:
+      - qa
+
+jobs:
+  setup-state:
+    runs-on: ubuntu-latest    
+    steps:
+      - name: set bucket s3
+        run: |
+          echo "se esta seteando el bucket de s3"
