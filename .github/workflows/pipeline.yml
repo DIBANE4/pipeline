@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest     
     steps:
       - name: set bucket s3 
-        run: |
+        run: |   
           echo "se esta seteando el bucket de s3" 
